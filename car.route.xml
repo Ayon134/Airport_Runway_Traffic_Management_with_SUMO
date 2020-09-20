@@ -7,7 +7,7 @@
 	<vType id="p6" accel="1.8" decel="10.5" sigma="0.2" length="12" maxSpeed="110"/>
 	<vType id="p7" accel="1.6" decel="10.5" sigma="0.2" length="15" maxSpeed="150"/>
 	<vType id="p8" accel="1.0" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
-	<vType id="p9" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p9" accel="1.5" decel="5.5" sigma="0.5" length="8" maxSpeed="210"/>
 
 	
     <vehicle id="1" type="p1" depart="5" color="1,0,0">
@@ -36,7 +36,7 @@
     </vehicle>
 	<vehicle id="9" type="p9" depart="153" color="0,1,0">
       <route edges="gneE4 gneE5	gneE6 gneE7"/> 
-    </vehicle>
+    </vehicle> 
 	
 </routes>
 
