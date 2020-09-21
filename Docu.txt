@@ -1,0 +1,17 @@
+Real Life data:
+Input-->
+1) 4 runway, 2 way each, can use 1 lane at a time for each runway
+2) 1000 vehicles
+3) time 24 hours(1000ms = 1s)
+
+Simulation Data:
+Input-->
+1) 4 runway, 2 way each, can use 1 lane at a time for each runway
+2) 167 vehicles
+3) time 4 hours(100ms = 1s)
+Output-->
+1) Which time, which road
+
+
+[N.B: Take off or landing is random and
+	let, Take off time = landing time]

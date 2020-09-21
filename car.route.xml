@@ -1,13 +1,86 @@
 <routes>
-    <vType id="p1" accel="1.8" decel="4.5" sigma="0.2" length="5" maxSpeed="190"/>
-    <vType id="p2" accel="1.3" decel="3.5" sigma="0.6" length="3" maxSpeed="130"/>
+    <vType id="p1" accel="1.8" decel="10.5" sigma="0.2" length="15" maxSpeed="190"/>
+    <vType id="p2" accel="1.3" decel="3.5" sigma="0.6" length="9" maxSpeed="130"/>
+	<vType id="p3" accel="1.8" decel="10.5" sigma="0.2" length="15" maxSpeed="190"/>
+    <vType id="p4" accel="1.3" decel="3.5" sigma="0.6" length="9" maxSpeed="130"/>
+	<vType id="p5" accel="1.1" decel="10.5" sigma="0.2" length="10" maxSpeed="200"/>
+	<vType id="p6" accel="1.8" decel="10.5" sigma="0.2" length="12" maxSpeed="110"/>
+	<vType id="p7" accel="1.6" decel="10.5" sigma="0.2" length="15" maxSpeed="150"/>
+	<vType id="p8" accel="1.0" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p9" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p10" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="130"/>
+	<vType id="p11" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p12" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p13" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p14" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p15" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p16" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p17" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p18" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p19" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
+	<vType id="p20" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
 
-    <vehicle id="0" type="p1" depart="0" color="1,0,0">
+	
+    <vehicle id="1" type="p1" depart="5" color="1,0,0">
       <route edges="gneE0 gneE1 gneE2 gneE3"/> 
     </vehicle>
-	<vehicle id="1" type="p2" depart="5" color="1,1,0">
+	<vehicle id="2" type="p2" depart="75" color="1,1,0">
       <route edges="gneE0 gneE1 gneE2 gneE3"/> 
     </vehicle>
-
+	<vehicle id="3" type="p3" depart="89" color="1,0,0">
+      <route edges="-gneE9 -gneE8"/> 
+    </vehicle>
+	<vehicle id="4" type="p4" depart="90" color="1,1,0">
+      <route edges="-gneE11 -gneE10"/> 
+    </vehicle>
+	<vehicle id="5" type="p5" depart="91" color="1,1,0">
+      <route edges="-gneE7 -gneE6 -gneE5 -gneE4"/> 
+    </vehicle>
+	<vehicle id="6" type="p6" depart="125" color="1,1,0">
+      <route edges="gneE0 gneE1	gneE2 gneE3"/> 
+    </vehicle>
+	<vehicle id="7" type="p7" depart="140" color="1,1,0">
+      <route edges="gneE8 gneE9"/> 
+    </vehicle>
+	<vehicle id="8" type="p8" depart="150" color="1,1,0">
+      <route edges="gneE10 gneE11"/> 
+    </vehicle>
+	<vehicle id="9" type="p9" depart="153" color="0,1,0">
+      <route edges="gneE4 gneE5	gneE6 gneE7"/> 
+    </vehicle>
+	<vehicle id="10" type="p10" depart="200" color="0,1,0">
+      <route edges="gneE0 gneE1 gneE2 gneE3"/> 
+    </vehicle>
+	<vehicle id="11" type="p11" depart="209" color="0,0,1">
+      <route edges="-gneE9 -gneE8"/> 
+    </vehicle>
+	<vehicle id="12" type="p12" depart="219" color="1,0,0">
+      <route edges="-gneE11 -gneE10"/> 
+    </vehicle>
+	<vehicle id="13" type="p13" depart="269" color="1,0,0">
+      <route edges="gneE10 gneE11"/> 
+    </vehicle>
+	<vehicle id="14" type="p14" depart="269" color="1,0,0">
+      <route edges="gneE0 gneE1 gneE2 gneE3"/> 
+    </vehicle>
+	<vehicle id="15" type="p15" depart="278" color="1,0,0">
+      <route edges="gneE8 gneE9"/> 
+    </vehicle>
+	<vehicle id="16" type="p16" depart="310" color="1,0,0">
+      <route edges="gneE4 gneE5 gneE6 gneE7"/> 
+    </vehicle>
+	<vehicle id="17" type="p17" depart="319" color="1,0,0">
+      <route edges="gneE0 gneE1 gneE2 gneE3"/> 
+    </vehicle>
+	<vehicle id="18" type="p18" depart="340" color="1,0,0">
+      <route edges="gneE8 gneE9"/> 
+    </vehicle>
+	<vehicle id="19" type="p19" depart="340" color="1,0,0">
+      <route edges="gneE10 gneE11"/> 
+    </vehicle>
+	<vehicle id="20" type="p20" depart="380" color="1,0,0">
+      <route edges="-gneE7 -gneE6 -gneE5 -gneE4"/> 
+    </vehicle>
+		
 </routes>
 
