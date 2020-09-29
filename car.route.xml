@@ -21,16 +21,16 @@
 	<vType id="p20" accel="1.9" decel="10.5" sigma="0.2" length="11" maxSpeed="190"/>
 
 	
-    <vehicle id="1" type="p1" depart="5" color="1,0,0">
+    <vehicle id="1" type="p1" depart="81" color="1,0,0">
       <route edges="gneE0 gneE1 gneE2 gneE3"/> 
     </vehicle>
-	<vehicle id="2" type="p2" depart="75" color="1,1,0">
+	<vehicle id="2" type="p2" depart="159" color="1,1,0">
       <route edges="gneE0 gneE1 gneE2 gneE3"/> 
     </vehicle>
-	<vehicle id="3" type="p3" depart="89" color="1,0,0">
+	<vehicle id="3" type="p3" depart="196" color="1,0,0">
       <route edges="-gneE9 -gneE8"/> 
     </vehicle>
-	<vehicle id="4" type="p4" depart="90" color="1,1,0">
+	<vehicle id="4" type="p4" depart="225" color="1,1,0">
       <route edges="-gneE11 -gneE10"/> 
     </vehicle>
 	<vehicle id="5" type="p5" depart="91" color="1,1,0">
