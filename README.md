@@ -25,7 +25,7 @@ What the dataset carry?
 1. 2 model we run on the dataset, and they gave different accuracy, we took the best one
 2. Based on the prediction we applied on SUMO but it was hardcoaded. [Best way to manupulate SUMO is using TraCI]
 
-To learn more please follow the link.[it will be public after the final 😁]
+To learn more please follow the link.[it will be public after the finals 😁]
 
 This project is still under development. Still you are free to use codes and data.
 
