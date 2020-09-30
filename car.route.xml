@@ -1,0 +1,96 @@
+<routes>
+    <vType id="p1" accel=".4" decel="10.5" sigma="0.2" length="15" maxSpeed=".1"/>
+    <vType id="p2" accel=".3" decel="3.5" sigma="0.6" length="9" maxSpeed=".30"/>
+	<vType id="p3" accel=".3" decel="10.5" sigma="0.2" length="15" maxSpeed=".4"/>
+    <vType id="p4" accel=".3" decel="3.5" sigma="0.6" length="9" maxSpeed=".5"/>
+	<vType id="p5" accel=".1" decel="10.5" sigma="0.2" length="10" maxSpeed=".64"/>
+	<vType id="p6" accel=".8" decel="10.5" sigma="0.2" length="12" maxSpeed=".51"/>
+	<vType id="p7" accel=".6" decel="10.5" sigma="0.2" length="15" maxSpeed=".71"/>
+	<vType id="p8" accel=".4" decel="10.5" sigma="0.2" length="11" maxSpeed=".53"/>
+	<vType id="p9" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".24"/>
+	<vType id="p10" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".5"/>
+	<vType id="p11" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".31"/>
+	<vType id="p12" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".43"/>
+	<vType id="p13" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".62"/>
+	<vType id="p14" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".91"/>
+	<vType id="p15" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".19"/>
+	<vType id="p16" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".62"/>
+	<vType id="p17" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".66"/>
+	<vType id="p18" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".7"/>
+	<vType id="p19" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".8"/>
+	<vType id="p20" accel=".9" decel="10.5" sigma="0.2" length="11" maxSpeed=".81"/>
+
+	
+    <vehicle id="1" type="p1" depart="81" color="1,0,0">
+      <route edges="gneE0 gneE1 gneE2 gneE3"/> 
+    </vehicle>
+	<vehicle id="2" type="p2" depart="159" color="1,1,0">
+      <route edges="gneE8 gneE9"/> 
+    </vehicle>
+	<vehicle id="3" type="p3" depart="196" color="1,0,0">
+      <route edges="-gneE11 -gneE10"/> 
+    </vehicle>
+	<vehicle id="4" type="p4" depart="225" color="1,1,0">
+      <route edges="-gneE7 -gneE6 -gneE5 -gneE4"/> 
+    </vehicle>
+	<vehicle id="5" type="p5" depart="2774" color="1,1,0">
+      <route edges="gneE8 gneE9"/> 
+    </vehicle>
+	<vehicle id="6" type="p6" depart="2794" color="1,1,0">
+      <route edges="gneE0 gneE1	gneE2 gneE3"/> 
+    </vehicle>
+	<vehicle id="7" type="p7" depart="2870" color="1,1,0">
+      <route edges="-gneE11 -gneE10"/> 
+    </vehicle>
+	<vehicle id="8" type="p8" depart="2950" color="1,1,0">
+      <route edges="-gneE7 -gneE6 -gneE5 -gneE4"/> 
+    </vehicle>	
+	<vehicle id="9" type="p9" depart="19767" color="0,1,0">
+      <route edges="-gneE3 -gneE2 -gneE1 -gneE0"/> 
+    </vehicle>
+	<vehicle id="10" type="p10" depart="19820" color="0,1,0">
+      <route edges="-gneE9 -gneE8"/> 
+    </vehicle>
+	<vehicle id="11" type="p11" depart="19855" color="0,0,1">
+      <route edges="gneE10 gneE11"/> 
+    </vehicle>
+	<vehicle id="12" type="p12" depart="19913" color="1,0,0">
+      <route edges="-gneE7 -gneE6 -gneE5 -gneE4"/> 
+    </vehicle>
+	<vehicle id="13" type="p13" depart="29732" color="1,0,0">
+      <route edges="-gneE3 -gneE2 -gneE1 -gneE0"/> 
+    </vehicle>
+	<vehicle id="14" type="p14" depart="29776" color="1,0,0">
+      <route edges="-gneE9 -gneE8"/> 
+    </vehicle>
+	<vehicle id="15" type="p15" depart="29798" color="1,0,0">
+      <route edges="gneE10 gneE11"/> 
+    </vehicle>
+	<vehicle id="16" type="p16" depart="29869" color="1,0,0">
+      <route edges="gneE4 gneE5 gneE6 gneE7"/> 
+    </vehicle>
+	<vehicle id="17" type="p17" depart="39286" color="1,0,0">
+      <route edges="gneE0 gneE1 gneE2 gneE3"/> 
+    </vehicle>
+	<vehicle id="18" type="p18" depart="39372" color="1,0,0">
+      <route edges="-gneE9 -gneE8"/> 
+    </vehicle>
+	<vehicle id="19" type="p19" depart="39419" color="1,0,0">
+      <route edges="gneE10 gneE11"/> 
+    </vehicle>
+	<vehicle id="20" type="p20" depart="39485" color="1,0,0">
+      <route edges="gneE4 gneE5 gneE6 gneE7"/> 
+    </vehicle>
+		
+</routes>
+	<!--
+Lane 1 Land gneE0 gneE1 gneE2 gneE3
+Lane 1 Take -gneE3 -gneE2 -gneE1 -gneE0
+Lane 2 Land gneE8 gneE8
+Lane 2 Take -gneE9 -gneE8
+Lane 3 Land -gneE11 -gneE10
+Lane 3 Take gneE10 gneE11
+Lane 4 Land -gneE7 -gneE6 -gneE5 -gneE4
+Lane 4 Take gneE4 gneE5 gneE6 gneE7
+-->
+
